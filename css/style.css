@@ -1,0 +1,39 @@
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background: #1F2937;
+}
+.left-link{
+    align-items: baseline;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.right-link{
+    align-items: baseline;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
+
+.footer {
+    background: #1F2937;
+    justify-content: center;
+}
